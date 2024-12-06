@@ -23,10 +23,22 @@ aside {
   font-family: Be Vietnam Pro;
   background-color: #eff6e0;
   grid-area: aside;
+  width: 15vw;
+}
+aside nav {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+aside li {
+  list-style-type: none;
 }
 main {
-  background-color: #eff6e0;
+  background-color: white;
   grid-area: main;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin: 10px;
 }
 
 .carta {
@@ -39,6 +51,7 @@ main {
   width: 250px;
   border: 1px solid black;
   border-radius: 10px;
+  background-color: white;
 }
 .carta img {
   width: 250px;
@@ -49,7 +62,7 @@ main {
   width: 100px;
   padding: 2px;
   margin: 5px;
-  background-color: #4eff6e0;
+  background-color: #eff6;
 }
 
 footer {
@@ -58,13 +71,15 @@ footer {
   justify-content: center;
   align-items: center;
   grid-area: footer;
+  background-color: #e0e1dd;
+  font-size: x-large;
+  font-weight: 800;
 }
 
-body{
-    display: grid;
-    grid-template-areas: 
+body {
+  display: grid;
+  grid-template-areas:
     "header header"
     "aside main"
-    "footer footer"
-    ;
+    "footer footer";
 }
