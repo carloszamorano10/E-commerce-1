@@ -25,8 +25,8 @@ aside {
   grid-area: aside;
   width: 15vw;
 }
-.tituloCateg{
-    margin-bottom: 10px;
+.tituloCateg {
+  margin-bottom: 10px;
 }
 aside nav {
   margin-left: 25px;
@@ -39,7 +39,7 @@ main {
   background-color: white;
   grid-area: main;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   gap: 10px;
   margin: 10px;
 }
